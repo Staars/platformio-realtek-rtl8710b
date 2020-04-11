@@ -21,16 +21,11 @@
     }
   },
   "packages": {
-    "framework-sdk-ameba-v4.0b-gcc": {
+    "framework-sdk-amb1": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/taubel/sdk-ameba-v4.0b-gcc.git"
+      "version": "https://github.com/chris-hatton/amb1_sdk.git"
     },
-    "framework-sdk-ameba-v4.0c-gcc": {
-      "type": "framework",
-      "optional": true,
-      "version": "ssh://git@git.8devices.com/sdk-ameba-v4_0c-gcc.git"
-     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
       "version": "~1.70201.0"
