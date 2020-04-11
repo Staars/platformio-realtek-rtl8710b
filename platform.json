@@ -20,7 +20,7 @@
     "framework-sdk-ameba-amb1": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/chris-hatton/amb1_sdk.git#amb1-sdk"
+      "version": "https://github.com/chris-hatton/amb1_sdk.git#platform-tools-update"
     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
