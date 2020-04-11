@@ -13,13 +13,13 @@ PlatformIO is well documented in their website at: https://docs.platformio.org/e
     [env:environment]
     platform = git@github.com:8devices/platformio-realtek-rtl8710b.git
     board = realtek_amebaz_dev01_1v0
-    framework = sdk-ameba-v4.0b
+    framework = sdk-ameba-amb1
 
 All necessary frameworks and tools will be automatically downloaded once you start developing your applications.
 
 ## Framework
 
-The platform uses 'SDK Ameba v4.0b' provided by the developer, realtek, in their website, and can be downloaded at: https://www.amebaiot.com/en/ameba-sdk-download/.
+The platform uses 'Ameba One SDK' maintained by the developer, Realtek, on GitHub, at: https://github.com/ambiot/amb1_sdk.
 
 ## DAP firmware
 
@@ -32,4 +32,4 @@ For linux users - if 'drag and drop' seems to fail to ugprade firmware, try:
 
 ## License
 
-* Project code is provided under The MIT Licesne (MIT)
+* Project code is provided under The MIT License (MIT)

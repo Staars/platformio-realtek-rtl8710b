@@ -81,7 +81,7 @@ env.Append(
 
 	LIBPATH=[
 		FRAMEWORK_DIR + "/component/soc/realtek/8711b/misc/bsp/lib/common/IAR",
-                FRAMEWORK_DIR + "/component/soc/realtek/8195a/misc/bsp/lib/common/IAR",
+		FRAMEWORK_DIR + "/component/soc/realtek/8195a/misc/bsp/lib/common/IAR",
 		env["PLATFORM_DIR"] + "/scripts/ld/sdk-ameba-v4.0b",
 	],
 
@@ -266,8 +266,7 @@ sources = [
 	"+<" + FRAMEWORK_DIR + "/component/common/utilities/http_client.c>",
 	"+<" + FRAMEWORK_DIR + "/component/common/utilities/uart_socket.c>",
 	"+<" + FRAMEWORK_DIR + "/component/common/utilities/webserver.c>",
-	"+<" + FRAMEWORK_DIR + "/component/common/utilities/xml.c>",
-        "+<" + FRAMEWORK_DIR + "/component/mem_wrap.c>"
+	"+<" + FRAMEWORK_DIR + "/component/common/utilities/xml.c>"
 	]
 
 lwip_sources = list("")

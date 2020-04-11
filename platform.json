@@ -11,17 +11,13 @@
   "version": "1.0.0",
   "packageRepositories": ["https://dl.bintray.com/platformio/dl-packages/manifest.json"],
   "frameworks": {
-    "sdk-ameba-v4.0b": {
-      "package": "framework-sdk-ameba-v4.0b-gcc",
-      "script": "builder/frameworks/sdk-ameba-v4.0b.py"
-    },
-    "sdk-ameba-v4.0c": {
-      "package": "framework-sdk-ameba-v4.0c-gcc",
-      "script": "builder/frameworks/sdk-ameba-v4.0c.py"
+    "sdk-ameba-amb1": {
+      "package": "framework-sdk-ameba-amb1",
+      "script": "builder/frameworks/sdk-ameba-amb1.py"
     }
   },
   "packages": {
-    "framework-sdk-amb1": {
+    "framework-sdk-ameba-amb1": {
       "type": "framework",
       "optional": true,
       "version": "https://github.com/chris-hatton/amb1_sdk.git#amb1-sdk"
