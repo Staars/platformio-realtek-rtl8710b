@@ -24,7 +24,7 @@
     "framework-sdk-amb1": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/chris-hatton/amb1_sdk.git"
+      "version": "https://github.com/chris-hatton/amb1_sdk.git#amb1-sdk"
     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
