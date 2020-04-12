@@ -10,7 +10,7 @@ if os.name == "nt":
 env = DefaultEnvironment()
 platform = env.PioPlatform()
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-sdk-ameba-v4.0c-gcc")
+FRAMEWORK_DIR = platform.get_package_dir("framework-sdk-ameba-amb1")
 assert isdir(FRAMEWORK_DIR)
 AMEBA_TOOLDIR = join(FRAMEWORK_DIR, "component", "soc", "realtek", "8711b", "misc", "iar_utility", "common", "tools")
 FLASH_TOOLDIR = join(FRAMEWORK_DIR, "component", "soc", "realtek", "8195a", "misc", "gcc_utility")
@@ -82,7 +82,7 @@ env.Append(
 	LIBPATH=[
 		FRAMEWORK_DIR + "/component/soc/realtek/8711b/misc/bsp/lib/common/IAR",
 		FRAMEWORK_DIR + "/component/soc/realtek/8195a/misc/bsp/lib/common/IAR",
-		env["PLATFORM_DIR"] + "/scripts/ld/sdk-ameba-v4.0b",
+		env["PLATFORM_DIR"] + "/scripts/ld/sdk-ameba-amb1",
 	],
 
 	LIBS=[
@@ -99,7 +99,7 @@ else:
 
 env.Replace(
 	LDSCRIPT_PATH = [
-		env["PLATFORM_DIR"] + "/scripts/ld/sdk-ameba-v4.0b/rlx8711B-symbol-v02-img2_xip1.ld",
+		env["PLATFORM_DIR"] + "/scripts/ld/sdk-ameba-amb1/rlx8711B-symbol-v02-img2_xip1.ld",
 			],
 
 	PICK = join(AMEBA_TOOLDIR, "pick" + EXECUTABLE_SUFFIX),
