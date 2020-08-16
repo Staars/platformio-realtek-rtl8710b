@@ -6,7 +6,8 @@
     "maximum_size": 1048576
 },
   "frameworks": [
-    "sdk-ameba-amb1"
+    "sdk-ameba-amb1",
+    "arduino"
   ],
   "name": "Realtek AmebaZ va0",
   "url": ".com",
