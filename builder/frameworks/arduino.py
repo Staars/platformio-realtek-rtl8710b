@@ -30,4 +30,4 @@ from SCons.Script import COMMAND_LINE_TARGETS, DefaultEnvironment, SConscript
 if "nobuild" not in COMMAND_LINE_TARGETS:
     SConscript(
         join(DefaultEnvironment().PioPlatform().get_package_dir(
-            "framework-sdk-ameba-amb1"), "tools", "platformio-build.py"))
+            "framework-arduino-amb1"), "tools", "platformio-build.py"))
