@@ -14,6 +14,10 @@
     "sdk-ameba-amb1": {
       "package": "framework-sdk-ameba-amb1",
       "script": "builder/frameworks/sdk-ameba-amb1.py"
+    },
+    "arduino": {
+      "package": "framework-arduino-amb1",
+      "script": "builder/frameworks/arduino.py"
     }
   },
   "packages": {
@@ -21,6 +25,11 @@
       "type": "framework",
       "optional": true,
       "version": "https://github.com/chris-hatton/amb1_sdk.git#platform-tools-update"
+    },
+    "framework-arduino-amb1": {
+      "type": "framework",
+      "optional": true,
+      "version": "https://github.com/ambiot/amb1_arduino"
     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
